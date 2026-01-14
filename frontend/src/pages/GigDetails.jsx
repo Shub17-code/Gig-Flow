@@ -10,7 +10,7 @@ export default function GigDetails() {
   const [gig, setGig] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/gigs/${gigId}`, {
+    fetch(`https://gig-flow-ejdn.onrender.com/api/gigs/${gigId}`, {
       credentials: "include",
     })
       .then((res) => res.json())
