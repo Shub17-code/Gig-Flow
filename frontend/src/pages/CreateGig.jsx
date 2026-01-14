@@ -12,7 +12,7 @@ export default function CreateGig({ onGigCreated }) {
   const createGig = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/gigs", {
+    const res = await fetch("https://gig-flow-ejdn.onrender.com/api/gigs", {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
