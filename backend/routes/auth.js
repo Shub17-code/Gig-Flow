@@ -68,8 +68,6 @@ router.post("/logout", (req, res) => {
   res.json({ message: "Logged out" });
 });
 
-const jwt = require("jsonwebtoken");
-
 router.get("/check", (req, res) => {
   const token = req.cookies.token;
 
