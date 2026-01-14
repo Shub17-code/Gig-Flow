@@ -10,7 +10,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend URL
+    origin: "https://gig-flow-frontend-g0wl.onrender.com", // frontend URL
     credentials: true,
   })
 );
