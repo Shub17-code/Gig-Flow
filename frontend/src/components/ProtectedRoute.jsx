@@ -6,7 +6,7 @@ export default function ProtectedRoute({ children }) {
   const [authenticated, setAuthenticated] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/auth/me", {
+    fetch(https://gig-flow-ejdn.onrender.com/api/auth/check", {
       credentials: "include",
     })
       .then((res) => res.json())
