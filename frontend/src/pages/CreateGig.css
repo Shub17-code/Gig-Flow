@@ -1,0 +1,55 @@
+/* Create gig card */
+.create-gig-card {
+  max-width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Title */
+.create-gig-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+/* Inputs */
+.create-gig-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.create-gig-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* Textarea */
+.create-gig-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.create-gig-textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.create-gig-card {
+  margin-left: auto;
+  margin-right: auto;
+}
