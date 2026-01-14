@@ -12,7 +12,7 @@ export default function Dashboard() {
 
   const fetchGigs = async () => {
     setLoading(true);
-    const res = await fetch("http://localhost:5000/api/gigs", {
+    const res = await fetch("https://gig-flow-ejdn.onrender.com/api/gigs", {
       credentials: "include",
     });
     const data = await res.json();
